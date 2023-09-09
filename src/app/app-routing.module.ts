@@ -14,7 +14,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 
 
-
+/* Soy el programado 2 */
 const routes: Routes = [
   {
     path: 'home', component: HomeComponent
