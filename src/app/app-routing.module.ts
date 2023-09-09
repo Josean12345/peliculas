@@ -15,7 +15,7 @@ import { IconosComponent } from './components/iconos/iconos.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 import { MenuDesplegableComponent } from './components//menu-desplegable/menu-desplegable.component';
 
-
+/* Soy el programado 2 */
 const routes: Routes = [
   {
     path: 'home', component: HomeComponent
