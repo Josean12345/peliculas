@@ -11,9 +11,8 @@ import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { PeliculasComponent } from './components/peliculas/peliculas.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-import { IconosComponent } from './components/iconos/iconos.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
-import { MenuDesplegableComponent } from './components//menu-desplegable/menu-desplegable.component';
+
 
 
 const routes: Routes = [
