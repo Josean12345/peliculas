@@ -1,10 +1,14 @@
 @import "colores.scss";
 @import "layauds.scss";
-@import "header.scss";
 @import "reset.scss";
-.bordeNegro{
+@import "font.scss";
+@import "buttons.scss";
+
+
+.bordeNegro {
     border: 1px solid black;
 }
-.bordeBlanco{
+
+.bordeBlanco {
     border: 1px solid rgb(255, 255, 255);
 }

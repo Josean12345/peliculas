@@ -1,1 +1,31 @@
+.submen-PADRE:hover .submenu{
+    display: block;
+    
+}
 
+.submen-PADRE{
+    position: relative;
+}
+
+.submenu{
+    position:absolute;
+    display: none;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    height: auto;
+    
+}
+
+.submenu li{
+    display: block;
+    text-align: left;
+}
+
+.submenu li a{
+    color: black;
+    
+}
+.borderTOP{
+    border-top: 1px dotted rgb(236, 124, 31);
+}

@@ -1,60 +1,9 @@
 .container {
-    display: flex; /* or inline-flex */
-  }
+  display: flex;
+  /* or inline-flex */
+}
 
-  .item {
-    order: 5; /* default is 0 */
-  }
-  
-  .container2 {
-    flex-direction: row | row-reverse | column | column-reverse;
-  }
-
-  .item2 {
-    flex-grow: 4; /* default 0 */
-  }
-
-  .container3 {
-    flex-wrap: nowrap | wrap | wrap-reverse;
-  }
-
-  .item3 {
-    flex-shrink: 3; /* default 1 */
-  }
-
-  .container4 {
-    flex-flow: column wrap;
-  }
-
-  .item4 {
-    flex-basis:  | auto; /* default auto */
-  }
-
-  .container5 {
-    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
-  }
-
-  .item5 {
-    flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-  }
-
-  .item6 {
-    align-self: auto | flex-start | flex-end | center | baseline | stretch;
-  }
-
-  .container6 {
-    align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
-  }
-
-  .container7 {
-    align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
-  }
-
-  .container8 {
-    display: flex;
-    ...
-    gap: 10px;
-    gap: 10px 20px; /* row-gap column gap */
-    row-gap: 10px;
-    column-gap: 20px;
-  }
+.item {
+  order: 5;
+  /* default is 0 */
+}

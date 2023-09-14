@@ -1,0 +1,57 @@
+    /* aquí puedes poner un comentario */
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    height: 120px;
+    /* Altura total de 120 píxeles */
+
+}
+
+.menu li {
+    text-decoration-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    display: table-cell;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    transition: color 0.8s;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 1;
+}
+
+#search-icon {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    height: 120px;
+    transition: color 0.3s;
+    align-items: center;
+   }
+
+#search-icon:hover {
+    color: #000;
+    /* Cambia el color al pasar el mouse encima */
+}
+
+.iconos{
+    justify-content: right;
+   /*  width: 90%; */
+}

@@ -1,33 +1,59 @@
-<div class="display-flex bordeNegro fondo-negro fondo-negro">
+<!--aquí puedes poner un comentario-->
 
-  <div class="w10porciento height-50px bordeNegro">
-    <img src="../../assets/imagenes/logo.png" alt="logo" href="#">
+<div class="display-flex bordeNegro fondo-negro d-flex align-items-center justify-content-center">
+
+  <div class="w10porciento height-100px bordeNegro">
+    <div class="logo-margin-top-0">
+      <a [routerLink]="['/']">
+        <img src="assets/imagenes/logo.png" alt="logo" href="#" height="120">
+      </a>
+    </div>
   </div>
 
-  <div class="w80porciento height-50px bordeNegro">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-
-      <!--   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <app-menu-nav></app-menu-nav>
-       
+  <div class="w80porciento height-100px bordeNegro ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
         </div>
+
+        <div class="col-8">
+          <nav class="menu">
+            <ul>
+              <li><a [routerLink]="['/']">Home</a> <img src="../../assets/imagenes/chevron-down.svg" alt="" srcset=""></li>
+              <li><a [routerLink]="['/sobre-mi']">Sobre Mí</a>  <img src="../../assets/imagenes/chevron-down.svg" alt="" srcset=""></li>
+
+
+
+              <li class="submen-PADRE"><a [routerLink]="['/peliculas']">Películas</a>  <img src="../../assets/imagenes/chevron-down.svg" alt="" srcset="">
+              
+                <ul class="submenu">
+                  <li><a [routerLink]="['/peliculas']">Películas</a></li>
+                  <li class="borderTOP"><a [routerLink]="['/peliculas']">Detalle Película</a></li>
+                </ul>
+              
+              
+              </li>
+
+
+
+              <li><a [routerLink]="['/contacto']">Contacto</a>  <img src="../../assets/imagenes/chevron-down.svg" alt="" srcset=""></li>
+            </ul>
+          </nav>
+        </div>
+
       </div>
-    </nav>
+    </div>
   </div>
 
-  <div class="w10porciento height-50px bordeNegro">
-    <div class="search-icon">
-      <!--   Icono de búsqueda aquí-->
-    </div>
-    <div class="menu-icon">
-      <!--       Icono de menú desplegable aquí
-            Contenido desplegable, como "Sobre nosotros", imágenes de Instagram y enlaces sociales
-                    </div> -->
-    </div>
+  <div class="w10porciento height-100px bordeNegro iconos">
+
+            <!-- Columna de iconos -->
+            <div class="col-2 display-flex align-items-center justify-content-center">
+              <img src="assets/imagenes/icon-search.svg" alt="search" href="#">
+              <i class="fas fa-search"></i>
+              <img src="assets/imagenes/icon-hamburguer.svg" href="#" alt="+info">
+              <i class="fas fa-bars"></i>
+            </div>
 
   </div>
+</div>
